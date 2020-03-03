@@ -17,7 +17,25 @@ public class OddEvenComparator {
 	 */
 	public String determineMajority(int[] ints){
 	
-		// Modify content of this method
-		return null;
+			public String determineMajority(int[] ints){
+		
+		int even_counter = 0;
+		int odd_counter = 0;
+		
+		for(int index = 0; ints.length; index++){
+			if(ints[index] % 2 == 0){
+				even_counter++;
+			}else{
+				odd_counter++;
+			}
+		}
+		
+		if(even_counter>odd_counter){
+			System.out.println("Even");
+		}else{
+			System.out.println("Odd");
+		}
+		
+	}
 	}
 }
