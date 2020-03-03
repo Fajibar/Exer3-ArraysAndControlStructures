@@ -16,8 +16,6 @@ public class OddEvenComparator {
 	 * 											 the number of odd integers.
 	 */
 	public String determineMajority(int[] ints){
-	
-			public String determineMajority(int[] ints){
 		
 		int even_counter = 0;
 		int odd_counter = 0;
